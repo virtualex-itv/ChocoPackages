@@ -18,7 +18,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       # https://github.com/dessant/lock-threads
-      - uses: dessant/lock-threads@v5.0.1
+      - uses: dessant/lock-threads@v6.0.2
         with:
           #exclude-issue-closed-before: "2024-06-01T00:00:00Z"
           issue-inactive-days: 1
